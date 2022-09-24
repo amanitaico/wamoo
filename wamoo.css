@@ -1,0 +1,302 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+main {
+    width:100vw;
+    height: 100vh;
+   
+    background-image: url(img/room.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1 {
+    color:white;
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin:0;
+    padding:40px;
+}
+
+.header {
+    width: 100%;
+    height:38px;
+    position: absolute;
+    top: 120px;
+    font-size: 18px;
+
+}
+.nav_list {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding:30px 10px;
+    list-style: none;
+    background-color: rgba(50, 58, 40, 0.7);
+    
+}
+
+.nav_list_item {
+    display: inline-block;
+    margin: 5px 40px;
+    
+    color: honeydew;
+    text-decoration: none;
+ 
+}
+
+.nav_list_item:hover {
+    color: rgb(165, 103, 154);
+    cursor: pointer;
+}
+
+.his-text {
+    display:none;
+}
+
+.his-text.active{
+    display: block;
+    color:rgb(12, 14, 12);
+    width:60vw;
+    background-color:rgba(244, 239, 239, 0.6);
+    margin:120px auto;
+    padding:60px;
+    line-height: 20px;
+    transition: ease-in;
+}
+
+.product-text {
+    display:none;
+}
+
+.product-text.active{
+    display: block;
+    color:rgb(12, 14, 12);
+    width:60vw;
+    background-color:rgba(244, 239, 239, 0.6);
+    margin:120px auto;
+    padding:60px;
+    line-height: 20px;
+    transition: ease-in;
+}
+
+.lookbook-contents {
+   display:none;
+}
+
+.lookbook-contents img {
+    width:130px;
+    height:90px; 
+    margin:0px 10px 20px 10px;
+}
+.lookbook-contents img:hover {
+    opacity: 0.7;
+}
+
+.lookbook-contents.active{
+    display:block;
+    width:60vw;
+    background-color:rgba(244, 239, 239, 0.6);
+    margin:120px auto;
+    padding:50px;
+    transition: ease-in;
+}
+
+.lookbook-contents-item {
+    width: inherit;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+}
+
+.btn_more {
+    vertical-align:auto;
+    text-align: right;
+}
+.btn_more a{
+    text-decoration: none;
+    color:rgb(107,92,89);
+}
+
+.contact-form {
+    display:none;
+}
+
+.contact-form.active{
+    display: block;
+    color:rgb(12, 14, 12);
+    width:60vw;
+    background-color:rgba(244, 239, 239, 0.6);
+    margin:120px auto;
+    padding:60px;
+    line-height: 20px;
+    transition: ease-in;
+    
+}
+
+.contact-form p {
+    margin-bottom:10px
+}
+
+.contact-box {
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;    
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(168, 164, 164);
+    align-content: flex-end;
+    color: white;
+    text-align: center;
+   
+    cursor: pointer;
+    float:right;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    color:rgb(95, 93, 93);
+}
+
+.box {
+    border:solid 3px rgb(171, 169, 169);
+}
+
+
+
+footer {
+    font-size:80%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    padding: auto;
+
+    
+}
+/*=======lookdetail.html============*/ 
+
+.lookbook_detail {
+    width:80%;
+    padding:0px 80px 60px 80px;
+    font-size:12px;
+    margin-bottom: 50px;
+   
+}
+.detail_image{
+    display: block;
+    width: 500px;
+    margin-top:50px;
+}
+
+h4 {
+    margin-bottom:0px;
+}
+/*=======lookbook.html============*/ 
+.lookbody {
+    padding: 100px 200px;
+    margin-bottom: 30px;
+    
+}
+.lookbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+ .look {
+    background-color: rgb(183, 180, 180);
+    width:180px;
+    height:100px;
+    text-align: center;
+    margin:15px 15px;
+    
+ } 
+
+ .look a {
+    text-decoration: none;
+    color:white;
+ }
+
+/*=======CONFIRM.php============*/
+.confirm-form {
+    margin:100px 200px;
+    font-size:15px;
+}
+h2 {
+    font-size:20px;
+    font-weight:bold;
+}
+.form-item{
+    font-size:15px;
+    color:black;
+    margin-top:40px
+}
+
+.confirm_btn input{
+    margin:60px 20px 0px 0px;
+    width:80px;
+    height:30px;
+    background-color:
+    
+    rgb(168, 164, 164);
+    font-family:helvetica;
+    color:white;
+}
+
+.confirm_btn input:hover {
+    color:gray;
+}
+
+/*=======COMPLETE.php============*/
+.complete {
+    margin:100px 200px;
+
+}
+
+h3 {
+    font-size:20px;
+    font-weight:bold; 
+    
+}
+
+.message {
+    font-size:15px;
+    font-weight:bold; 
+    margin-bottom:100px;
+}
+
+.return a {
+text-decoration:none;
+color:gray;
+}
+
+
+
+/*こっからどっか押してたら戻るやつ*/
+
+.sheild {
+    background-color: aqua;
+   
+    width: 100%;
+    height: 100%;;
+    
+}
+.sheild .active{
+    width:100%;
+    height:100%;
+    visibility: visible;
+    background:rgba(218, 71, 71, 0.4);
+    z-index:99;
+}
